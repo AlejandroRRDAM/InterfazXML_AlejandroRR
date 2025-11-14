@@ -7,16 +7,19 @@
 		<texto>Bienvenido a la aplicación</texto>
 		<posicion>12,20</posicion>
 		<tamaño>300,20</tamaño>
-		<colorFondo>LightSteelBlue</colorFondo>
+		<estilos>
+			<propiedad nombre="Font" valor="Segoe UI, 10pt, style=Bold" />
+		</estilos>
 	</control>
-
 	<control>
 		<tipo>Button</tipo>
 		<nombre>btnAnadir</nombre>
 		<texto>Añadir</texto>
 		<posicion>30,60</posicion>
 		<tamaño>100,30</tamaño>
-		<colorFondo>#90EE90</colorFondo>
+		<estilos>
+			<propiedad nombre="BackColor" valor="#90EE90" />
+		</estilos>
 	</control>
 	<control>
 		<tipo>Button</tipo>
@@ -24,7 +27,9 @@
 		<texto>Editar</texto>
 		<posicion>140,60</posicion>
 		<tamaño>100,30</tamaño>
-		<colorFondo>#ADD8E6</colorFondo>
+		<estilos>
+			<propiedad nombre="BackColor" valor="#ADD8E6" />
+		</estilos>
 	</control>
 	<control>
 		<tipo>Button</tipo>
@@ -32,39 +37,34 @@
 		<texto>Eliminar</texto>
 		<posicion>250,60</posicion>
 		<tamaño>100,30</tamaño>
-		<colorFondo>#FFB6C1</colorFondo>
+		<estilos>
+			<propiedad nombre="BackColor" valor="#FFB6C1" />
+		</estilos>
 	</control>
 
 	<control>
 		<tipo>DataGridView</tipo>
 		<nombre>dgvPokemon</nombre>
-		<posicion>30,110</posicion>
-		<tamaño>320,130</tamaño>
-
+		<posicion>30,100</posicion>
+		<tamaño>320,150</tamaño>
 		<columnas>
 			<columna>Pokemon</columna>
 			<columna>Tipo</columna>
 			<columna>Color</columna>
 		</columnas>
+	</control>
 
-		<filas>
-			<fila>
-				<celda>Bulbasaur</celda>
-				<celda>Planta</celda>
-				<celda>Verde</celda>
-			</fila>
-			<fila>
-				<celda>Charmander</celda>
-				<celda>Fuego</celda>
-				<celda>Rojo</celda>
-			</fila>
-			<fila>
-				<celda>Squirtle</celda>
-				<celda>Agua</celda>
-				<celda>Azul</celda>
-			</fila>
-		</filas>
-
+	<control>
+		<tipo>Button</tipo>
+		<nombre>btnGuardar</nombre>
+		<texto>Guardar Cambios</texto>
+		<posicion>30,260</posicion>
+		<tamaño>320,30</tamaño>
+		<estilos>
+			<propiedad nombre="BackColor" valor="RoyalBlue" />
+			<propiedad nombre="ForeColor" valor="White" />
+			<propiedad nombre="Font" valor="Segoe UI, 10pt, style=Bold" />
+		</estilos>
 	</control>
 
 </Formulario>
