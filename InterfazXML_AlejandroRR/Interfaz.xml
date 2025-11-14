@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Formulario>
+
+	<control>
+		<tipo>Label</tipo>
+		<nombre>lblBienvenida</nombre>
+		<texto>Bienvenido a la aplicación</texto>
+		<posicion>12,20</posicion>
+		<tamaño>300,20</tamaño>
+		<colorFondo>LightSteelBlue</colorFondo>
+	</control>
+
+	<control>
+		<tipo>Button</tipo>
+		<nombre>btnAnadir</nombre>
+		<texto>Añadir</texto>
+		<posicion>30,60</posicion>
+		<tamaño>100,30</tamaño>
+		<colorFondo>#90EE90</colorFondo>
+	</control>
+	<control>
+		<tipo>Button</tipo>
+		<nombre>btnEditar</nombre>
+		<texto>Editar</texto>
+		<posicion>140,60</posicion>
+		<tamaño>100,30</tamaño>
+		<colorFondo>#ADD8E6</colorFondo>
+	</control>
+	<control>
+		<tipo>Button</tipo>
+		<nombre>btnEliminar</nombre>
+		<texto>Eliminar</texto>
+		<posicion>250,60</posicion>
+		<tamaño>100,30</tamaño>
+		<colorFondo>#FFB6C1</colorFondo>
+	</control>
+
+	<control>
+		<tipo>DataGridView</tipo>
+		<nombre>dgvPokemon</nombre>
+		<posicion>30,110</posicion>
+		<tamaño>320,130</tamaño>
+
+		<columnas>
+			<columna>Pokemon</columna>
+			<columna>Tipo</columna>
+			<columna>Color</columna>
+		</columnas>
+
+		<filas>
+			<fila>
+				<celda>Bulbasaur</celda>
+				<celda>Planta</celda>
+				<celda>Verde</celda>
+			</fila>
+			<fila>
+				<celda>Charmander</celda>
+				<celda>Fuego</celda>
+				<celda>Rojo</celda>
+			</fila>
+			<fila>
+				<celda>Squirtle</celda>
+				<celda>Agua</celda>
+				<celda>Azul</celda>
+			</fila>
+		</filas>
+
+	</control>
+
+</Formulario>
